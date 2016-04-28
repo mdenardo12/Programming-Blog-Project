@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Create a Post</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script type="text/javascript" src="script.js"></script>
+	</head>
+	<body onload="">
+		<div class="blog">
+			<form  class= "pform" method="post" >
+				Title:
+				<br>
+				<input type="text" name="title" pattern="[A-Za-z]*" required>
+
+				<br>
+				Author:
+				<br>
+				<input type="text" name="name" pattern="[A-Za-z]*" required>
+				<br>
+				Post:
+				<br>
+				<textarea name="post" rows="10" cols="50"></textarea>
+				<br>
+				Image:
+				<br>
+				<input type="file" name="fileToUpload" >
+				<br>
+				YouTube Link:
+				<br>
+				<input type="text" name="tubeyou" pattern="[A-Za-z]*">
+				<br>
+				<input type="submit" name="submit" value="Submit">
+
+			</form>
+		</div>
+		
+	</body>
+	
+</html>
