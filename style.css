@@ -4,6 +4,9 @@ body
 	text-align: center;
 	background-color: #555566;
 	font-family: "Courier New", Courier, monospace;
+	width: 800px;
+	margin: auto;
+	padding: 10px;
 }
 
 h1
@@ -15,7 +18,27 @@ h1
 {
 	display: inline-block;
 	position : relative;
-	width: 800px;
+	width: 650px;
+	float: left;
+}
+
+.blogs-controls
+{
+	display: inline-block;
+	float: right;
+	width: 150px;
+	margin-top: 20px;
+}
+
+.blog-control
+{
+	text-align: left;
+	display:inline-block;
+	min-width: 50px;
+	width: 150px;
+	padding:5px 10px;
+	color: white;
+	text-decoration:none;
 }
 
 .blog
@@ -45,6 +68,12 @@ h1
 .author
 {
 	text-align: right;
+}
+
+.date
+{
+	text-align: right;
+	padding: 0px;
 }
 
 .pform
